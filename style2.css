@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+    color: #404040;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 20px;
+}
+
+form {
+    background-color: #eff0ff;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 150px #352e9d;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}  
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.barra-horizontal {
+    background-color: #352e9d;
+    height: 5px;
+    width: 250px;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+button {
+    padding: 10px;
+    align-self: center;
+    width: 160px;
+    border-radius: 30px;
+    background-color: #352e9d;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button:hover{
+    color: white;
+    background-color: #8385e9;
+}
+
+a {
+    color: #070536;
+    font-weight: 500;
+}
+
+.lembrar{
+    display: flex;
+    gap: 5px;
+}
+
+.esqueceu-senha {
+    text-align: center;
+}
+
+.fazer-cadastro {
+    text-align: center;
+}
+  
